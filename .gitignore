@@ -1,0 +1,4 @@
+*.pyc
+.DS_Store
+venv3/*
+data_crawler.py
