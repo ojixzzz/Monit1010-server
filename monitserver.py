@@ -25,7 +25,7 @@ class DataStatusResource:
                 "data5": monit1010['server_status'],
                 "data6": 0,
             }
-            resp.body = json.dumps({"status": 200, "data": monit1010})
+            resp.body = json.dumps({"status": 200, "data": data})
         else:
             resp.body = json.dumps({"status": 404})
 
